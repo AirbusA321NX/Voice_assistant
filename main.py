@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import tkinter as tk
 from tkinter import messagebox
 import threading
@@ -149,3 +150,24 @@ while True:
     else:
         print("⚠️ Could not understand the instruction.")
         show_error_popup("Sorry, I couldn't understand that command.")
+=======
+# main.py
+from voice_input import get_voice_command
+from ollama_parser import parse_command
+from task_dispatcher import dispatch_command
+
+while True:
+    voice_text = get_voice_command()
+    if voice_text.strip() == "":
+        continue
+
+    print("🗣️ You said:", voice_text)
+    parsed = parse_command(voice_text)
+    command = parsed.get("command", "")
+
+    if command:
+        print("🚀 Running:", command)
+        dispatch_command(command)
+    else:
+        print("⚠️ Could not understand the instruction.")
+>>>>>>> 97ee0853eb57439965771430efc01c881605ad1f

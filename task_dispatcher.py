@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # task_dispatcher.py
 import subprocess
 import os
@@ -78,3 +79,14 @@ def open_settings(setting_name):
             return f"Failed to open {setting_name} settings: {str(e)}"
     else:
         return f"Settings for {setting_name} not recognized."
+=======
+# task_dispatcher.py
+import subprocess
+
+def dispatch_command(command):
+    try:
+        args = ["build/sys_control.exe"] + command.split()
+        subprocess.run(args)
+    except Exception as e:
+        print("❌ Error running system command via C++:", e)
+>>>>>>> 97ee0853eb57439965771430efc01c881605ad1f
