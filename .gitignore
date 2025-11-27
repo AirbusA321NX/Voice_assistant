@@ -1,0 +1,23 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+
+# Build
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config.py
