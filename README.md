@@ -82,31 +82,31 @@ sequenceDiagram
 
 ## Features
 
-### 🎙️ Voice Control
+### Voice Control
 - **Speech-to-Text**: High-accuracy voice recognition using OpenAI Whisper
 - **Natural Language Processing**: Intuitive command understanding with Mistral AI
 - **Hands-Free Operation**: Complete system control without keyboard or mouse
 - **Continuous Listening**: Always-ready voice activation
 
-### 💻 System Commands
+### System Commands
 - **Application Launch**: Open any installed application with voice commands
 - **System Controls**: Shutdown, restart, lock screen, and sleep mode
 - **File Operations**: Open file explorer, launch specific files
 - **System Settings**: Direct access to Windows settings panels
 
-### 🔍 Web Search & Information
+### Web Search & Information
 - **Intelligent Search**: AI-powered search query optimization
 - **Browser Integration**: Direct browser launching with search terms
 - **Information Queries**: Ask questions and get relevant web results
 - **Knowledge Access**: Retrieve information on any topic
 
-### 🎵 Media Control
+### Media Control
 - **Playback Control**: Play, pause, stop, next, and previous track
 - **Volume Management**: Increase, decrease, and mute system volume
 - **Media Applications**: Launch music and video players
 - **Screenshot Capture**: One-command screen capture
 
-### ⚙️ Advanced Features
+### Advanced Features
 - **Customizable Phrases**: Personalize activation and stop phrases
 - **Configurable Settings**: Adjust audio, AI, and system preferences
 - **Error Recovery**: Intelligent error handling and fallback mechanisms
@@ -171,7 +171,7 @@ cl /EHsc sys_control.cpp /Fe:build/sys_control.exe
 
 2. Wait for the activation prompt:
    ```
-   🎤 Say 'Hello Assistant' to start...
+   Say 'Hello Assistant' to start...
    ```
 
 3. Activate with any configured phrase:
